@@ -1,0 +1,311 @@
+.progress-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.progress-header {
+  margin-bottom: 2rem;
+}
+
+.progress-header h1 {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+}
+
+.progress-header p {
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+.progress-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2rem;
+}
+
+.progress-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+
+.progress-card h2 {
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.stats-overview {
+  grid-column: span 12;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.stat-label {
+  color: #718096;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.subject-mastery {
+  grid-column: span 6;
+}
+
+.mastery-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.streak-card {
+  grid-column: span 6;
+  text-align: center;
+}
+
+.streak-display {
+  margin: 2rem 0;
+}
+
+.streak-number {
+  font-size: 5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.streak-text {
+  font-size: 1.5rem;
+  color: #4a5568;
+  font-weight: 600;
+}
+
+.streak-message {
+  color: #718096;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.streak-calendar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.day-active,
+.day-inactive {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.day-active {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+}
+
+.day-inactive {
+  background: #e2e8f0;
+  color: #a0aec0;
+}
+
+.improvement-graph {
+  grid-column: span 6;
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.graph-header select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.graph-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.subject-trend {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.trend-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.trend-subject {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.trend-up {
+  color: #43e97b;
+  font-weight: 600;
+}
+
+.trend-down {
+  color: #fa709a;
+  font-weight: 600;
+}
+
+.mini-graph {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  height: 60px;
+}
+
+.graph-bar {
+  flex: 1;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+  border-radius: 4px 4px 0 0;
+  min-height: 10px;
+  transition: height 0.3s ease;
+}
+
+.completed-tasks {
+  grid-column: span 6;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
+  padding: 1rem;
+  background: #f7fafc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info h4 {
+  margin: 0 0 0.3rem 0;
+  color: #2d3748;
+}
+
+.task-info p {
+  margin: 0;
+  color: #718096;
+  font-size: 0.85rem;
+}
+
+.task-score {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.achievements {
+  grid-column: span 12;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.achievement-item {
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.achievement-item.unlocked {
+  background: linear-gradient(135deg, #f7fafc 0%, #e6f7ff 100%);
+  border: 2px solid #43e97b;
+}
+
+.achievement-item.locked {
+  background: #f7fafc;
+  border: 2px solid #e2e8f0;
+  opacity: 0.6;
+}
+
+.achievement-item:hover {
+  transform: translateY(-3px);
+}
+
+.achievement-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.achievement-item h4 {
+  color: #2d3748;
+  margin: 0.5rem 0;
+}
+
+.achievement-item p {
+  color: #718096;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.unlocked-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .subject-mastery,
+  .streak-card,
+  .improvement-graph,
+  .completed-tasks {
+    grid-column: span 12;
+  }
+}
