@@ -16,3 +16,8 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightskyblue;
 }
+
+footer {
+    padding-top: 50px;
+    font-size: 10px;
+}
