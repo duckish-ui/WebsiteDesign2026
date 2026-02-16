@@ -4,4 +4,11 @@ body {
 
 .logo {
     float: left;
+    padding: 10px;
+}
+
+.header {
+    padding-top: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightskyblue;
 }
