@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    padding-left: 10px;
 }
 
 .logo {
@@ -11,8 +12,4 @@ body {
     padding-top: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightskyblue;
-}
-
-.bodytext {
-    padding: 10px;
 }
