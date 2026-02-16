@@ -7,7 +7,7 @@ body {
     padding: 10px;
 }
 
-header {
+.headertext {
     padding-top: 13px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightskyblue;
