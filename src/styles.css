@@ -1,15 +1,18 @@
 body {
     background-color: bisque;
-    padding-left: 10px;
+    padding-left: 25px;
 }
 
 .logo {
     float: left;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 10px;
 }
 
 .headertext {
     padding-top: 13px;
+    padding-bottom: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: lightskyblue;
 }
