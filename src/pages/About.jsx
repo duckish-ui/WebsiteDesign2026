@@ -7,7 +7,7 @@ function About() {
       <Navbar />
       <div className="about-container">
         <header className="about-hero">
-          <h1>About Student Learning Hub</h1>
+          <h1>About Educative Excellence</h1>
           <p className="hero-tagline">Empowering students through collaborative learning</p>
         </header>
 
