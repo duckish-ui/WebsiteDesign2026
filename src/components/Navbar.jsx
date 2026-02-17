@@ -13,7 +13,7 @@ function Navbar() {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <span className="logo-icon">📚</span>
-          Student Learning Hub
+          Educative Excellence
         </Link>
         
         <ul className="nav-menu">

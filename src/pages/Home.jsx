@@ -8,7 +8,7 @@ function Home() {
       <Navbar />
       <div className="home-container">
         <section className="hero">
-          <h1>Welcome to Student Learning Hub</h1>
+          <h1>Welcome to Educative Excellence</h1>
           <p className="hero-subtitle">Your centralized platform for peer learning, progress tracking, and gamified rewards</p>
           <div className="cta-buttons">
             <Link to="/dashboard" className="btn-primary">Get Started</Link>
